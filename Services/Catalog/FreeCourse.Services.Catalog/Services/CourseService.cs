@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.Services
 {
-    internal class CourseService : ICourseService
+    public class CourseService : ICourseService
     {
         private readonly IMongoCollection<Course> _courseCollection;
         private readonly IMongoCollection<Category> _categoryCollection;
@@ -52,7 +52,7 @@ namespace FreeCourse.Services.Catalog.Services
         {
             var course = await _courseCollection.Find<Course>(x => x.Id == id).FirstOrDefaultAsync();
 
-            if (course != null)
+            if (course == null)
             {
                 return Response<CourseDto>.Fail("Course not found", 404);
             }
