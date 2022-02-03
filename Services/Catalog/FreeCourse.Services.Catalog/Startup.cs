@@ -53,7 +53,7 @@ namespace FreeCourse.Services.Catalog
             {
                 options.Authority = Configuration["IdentityServerURL"];
                 options.Audience = "resource_catalog";
-                //options.RequireHttpsMetadata = false;
+                options.RequireHttpsMetadata = false;
             });
         }
 
