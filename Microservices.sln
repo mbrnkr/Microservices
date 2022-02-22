@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{BB96B623-0DFC-4AA7-8DDE-F2C935F59A11}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{86DAD8FF-09A3-4277-A5DA-05BA29A59FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{F7BE5B10-9B42-4A9A-836D-E6068B649D09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{BB96B623-0DFC-4AA7-8DDE-F2C935F59A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB96B623-0DFC-4AA7-8DDE-F2C935F59A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB96B623-0DFC-4AA7-8DDE-F2C935F59A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BE5B10-9B42-4A9A-836D-E6068B649D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BE5B10-9B42-4A9A-836D-E6068B649D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BE5B10-9B42-4A9A-836D-E6068B649D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BE5B10-9B42-4A9A-836D-E6068B649D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{69492165-9AE9-41E1-BC46-9B1260D723AF} = {C514CA60-AB55-4ACC-91B2-29716897C088}
 		{3FBF995A-219D-4237-B798-05F6F24C4FB5} = {27A996E0-0679-4ECB-A4BC-D38BAE138914}
 		{BB96B623-0DFC-4AA7-8DDE-F2C935F59A11} = {782B0875-68B0-4C20-86B9-527CA0457E0B}
+		{86DAD8FF-09A3-4277-A5DA-05BA29A59FB6} = {6935FF0D-C02E-41D5-B257-AA17577AFDAB}
+		{F7BE5B10-9B42-4A9A-836D-E6068B649D09} = {86DAD8FF-09A3-4277-A5DA-05BA29A59FB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D0BDE81-2740-40E3-AA21-83B1835643EC}
