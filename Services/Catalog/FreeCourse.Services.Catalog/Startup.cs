@@ -33,7 +33,8 @@ namespace FreeCourse.Services.Catalog
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ICourseService, CourseService>();
             services.AddAutoMapper(typeof(Startup));
-            services.AddControllers(opt => {
+            services.AddControllers(opt => 
+            {
                 opt.Filters.Add(new AuthorizeFilter());
             });
   
