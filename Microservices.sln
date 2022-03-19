@@ -30,6 +30,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{539173
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.Services.Basket", "Services\Basket\FreeCourse.Services.Basket\FreeCourse.Services.Basket.csproj", "{FB7330A7-E85C-4EDC-BF4C-9428EEF567C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{91141310-605E-400B-9C6A-FDBC6D7E310C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Discount", "Services\Discount\FreeCourse.Services.Discount\FreeCourse.Services.Discount.csproj", "{2F797DF6-0753-4D26-B127-9E1C97748C1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,10 @@ Global
 		{FB7330A7-E85C-4EDC-BF4C-9428EEF567C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB7330A7-E85C-4EDC-BF4C-9428EEF567C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB7330A7-E85C-4EDC-BF4C-9428EEF567C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F797DF6-0753-4D26-B127-9E1C97748C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F797DF6-0753-4D26-B127-9E1C97748C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F797DF6-0753-4D26-B127-9E1C97748C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F797DF6-0753-4D26-B127-9E1C97748C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,8 @@ Global
 		{F7BE5B10-9B42-4A9A-836D-E6068B649D09} = {86DAD8FF-09A3-4277-A5DA-05BA29A59FB6}
 		{5391732A-C3FA-4CB0-AFD7-E697BCE02A8A} = {6935FF0D-C02E-41D5-B257-AA17577AFDAB}
 		{FB7330A7-E85C-4EDC-BF4C-9428EEF567C5} = {5391732A-C3FA-4CB0-AFD7-E697BCE02A8A}
+		{91141310-605E-400B-9C6A-FDBC6D7E310C} = {6935FF0D-C02E-41D5-B257-AA17577AFDAB}
+		{2F797DF6-0753-4D26-B127-9E1C97748C1F} = {91141310-605E-400B-9C6A-FDBC6D7E310C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D0BDE81-2740-40E3-AA21-83B1835643EC}
