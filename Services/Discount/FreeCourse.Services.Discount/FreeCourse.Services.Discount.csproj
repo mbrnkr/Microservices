@@ -6,11 +6,16 @@
 
   <ItemGroup>
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Npgsql" Version="5.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\FreeCourse.Shared\ClassLibrary1\FreeCourse.Shared.csproj" />
   </ItemGroup>
 
 </Project>
